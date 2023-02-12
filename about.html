@@ -1,171 +1,226 @@
-<html>
-  <title>About Me</title>
-  <body>
-    <head>
-      <div>
-        <table style="width: 100%">
-          <tr>
-            <td>
-              <a href="#">
-                <img src="assets/logo.png" width="100px" alt="Reload" 
-                
-                style="border-radius: 20%; object-fit: fill; border: 5px solid "/>
-              </a>
-            </td>
-            <td align="right">
-              <nav
-                style="
-                  margin-right: 50px;
-                  margin-top: 15px;
-                  margin-bottom: 10px;
-                  margin-left: 50px;"
-              >
-                <a href="home.html">Home</a>
-                <a href="about.html" style="margin: 20px">About Me</a>
-                <a href="contact.html">Contact Me</a>
-              </nav>
-            </td>
-          </tr>
-        </table>
-      </div>
-    </head>
-  </html>
-  <!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-}
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>About Me</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
 
-html {
-  box-sizing: border-box;
-}
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-*, *:before, *:after {
-  box-sizing: inherit;
-}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cardo:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 
-.column {
-  float: left;
-  width: 33.3%;
-  margin-bottom: 16px;
-  padding: 0 8px;
-}
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
 
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  margin: 8px;
-}
+  <link href="assets/css/main.css" rel="stylesheet">
 
-.about-section {
-  padding: 50px;
-  text-align: center;
-  background-color: #474e5d;
-  color: white;
-}
-
-.container {
-  padding: 0 16px;
-}
-
-.container::after, .row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-.title {
-  color: grey;
-}
-
-.button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 8px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-}
-
-.button:hover {
-  background-color: #555;
-}
-
-@media screen and (max-width: 650px) {
-  .column {
-    width: 100%;
-    display: block;
-  }
-}
-</style>
 </head>
+
 <body>
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid d-flex align-items-center justify-content-between">
 
-<div class="about-section">
-  <h1>About Me </h1>
-  <b><h2>Christopher Thabo Rampora</h2></b>
-  <p>I'm TUT Post-Grad Computer Science Student </p>
-  
-</div>
+      <a href="index.html" class="logo d-flex align-items-center  me-auto me-lg-0">
+        <img style="height:80px; max-height: 58px; width: auto; border-radius: 30%;" src="assets/img/logo.png" alt="Realod"> 
+      </a>
 
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html" class="active">About Me </a></li>
+          <li><a href="contact.html">Contact Me</a></li>
+        </ul>
+      </nav>
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
 
-<h2 style="text-align:center">Experience </h2>
-<div class="row">
-  <div class="column">
-    <div class="card">
-      <img src="assets/tut2.png" alt="Reload" style="width:100%">
-      <div class="container">
-        <h2>Tshwane University of Technology</h2>
-        <p class="title">Computer Lab Student Assistant</p>
-      <li>Student assistance with computer problems</li>
-      <li>Keep an eye on the computer lab</li>
-      <li>Collect data</li>
-      <p class="title">Start Date:10/04/2022</p>
-      <p class="title">End Date:08/12/2022</p>
-        <p><button class="button" ></a>www.tut.ac.za</button></p>
-        
+    </div>
+  </header>
+
+  <main id="main" data-aos="fade" data-aos-delay="1500">
+
+    <div class="page-header d-flex align-items-center">
+      <div class="container position-relative">
+        <div class="row d-flex justify-content-center">
+          <div class="col-lg-6 text-center">
+            <h3>Christopher Thabo Rampora</h3>
+            <p>I am  Post-Grad Computer Science Student</p>
+
+            <a class="cta-btn" href="contact.html">Contact Me</a>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
 
-  <div class="column">
-    <div class="card">
-      <img src="assets/ICEP2.jpg" alt="Reload" style="width:100%">
+    <section id="about" class="about">
       <div class="container">
-        <h2>Informatics Community Engagement Project</h2>
-        <p class="title">Intern(Work Integrated Learning</p>
-       <li>Developing websites</li>
-       <li>Organizing varsity hackathons</li>
-       <p class="title">Start Date:01/06/2022</p>
-       <p class="title">End Date:Present</p>
-        <p><button class="button">www.icep.ac.za</button></p>
+
+        <div class="row gy-4 justify-content-center">
+          <div class="col-lg-4">
+            <img src="assets/img/ME.jpeg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-5 content">
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>DOB:</strong> <span>2000/05/23</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>0685587535</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Linkedin:</strong> <span>Thabo Rampora</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>City: </strong> <span>Polokwane</span></li>
+              
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>22</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Diploma:</strong> <span> I.T(Software Dev)</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>chrisrampora242@gmail.com</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>License:</strong> <span>C1(Code 10)</span></li>
+                </ul>
+              </div>
+            </div>
+            <p class="py-3">
+             I am a graduand of Tshwane University of Technology with a specialization in software development. I am a hardworking student who goes above and beyond to complete assignments. I have intermediate experience in front-end development. I enjoy problem solving and am enthusiastic about my profession. My undergrad grade overall is 69%
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+      <div class="container">
+        <div style = "content: center;"class="section-header">
+          <p style="color: rgb(51, 207, 155)"> Work Experience</p>
+        </div>
+        <div class="slides-3 swiper">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <h3>Informatics Community Engagement Project</h3>
+                  <li>Intern(WIL)</li>
+                  <ul>
+                    <p>
+                      <li>Developing Websites</li>
+                      <li>Organising Hackathons</li>
+                      <li>Completing WILL coordinator's assigned projects.</li> 
+                    </p>
+                  </ul> 
+                  <p>Start Date:01/06/22  - End Date: Present</p> 
+                
+                <div class="profile mt-auto">
+                  <div class="column">
+                    <div class="card">
+                      <img src="assets/img/ICEP2.jpg" alt="Reload" style="width:100%">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <h3>Tshwane University Of Technology</h3>
+                  <li>Student Assistant</li>
+                  <ul>
+                    <p>
+                      <li>Computer lab supervision</li>
+                      <li>Making certain that students do not make any noise.</li>
+                      <li>Assisting students who are having computer or printing problems.</li> 
+                    </p>
+                  </ul>
+                  <p>Start Date:01/05/2022  - End Date: Present</p> 
+                <div class="profile mt-auto">
+                  <div class="column">
+                    <div class="card">
+                      <img src="assets/img/tut2.png" alt="Reload" style="width:100%">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <h3> Spash & Jump Zone Polokwane</h3>
+                    <li>Life Guard</li>
+                    <ul>
+                      <p>
+                        <li>Ensuring that the pack is clean</li>
+                        <li>Making certain that clients do not drown and assisting with activities.</li>
+                        <li>Assisting students who are having computer or printing problems.</li> 
+                      </p>
+                    </ul>
+                    <p>Start Date:17/03/2022  - End Date: 15/10/2022</p> 
+                               
+                  <div class="profile mt-auto">
+                    <div class="column">
+                      <div class="card">
+                        <img src="assets/img/Splash.jpg" alt="Reload" style="width:100%">               
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+        <div style = "content: center;"class="section-header">
+          <p style="color: rgb(51, 207, 155);">Background Education</p>
+              <b style="font: 200; color: #195fe2;">Tertiary Education</b>        
+              <li style="font-style: italic; color: rgb(51, 207, 155);">
+                Tshwane Univerdity of Technology
+              </li>
+              <ul>
+                <p>
+                  <li>Nation Diploma in Information Technology  (2019 - 2022) </li>
+                  <li>Advanced Diploma in Computer Science (2023 - Present)</li>           
+                </p>
+              </ul>
+              <b style="font: 200; color: #195fe2;">High School Education</b>   
+              <li style="font-style: italic; color: rgb(51, 207, 155);">
+               Old Mill High School
+              </li>
+              <ul>
+                <p>
+                  <li>National Senior Certificate </li>          
+                </p>
+              </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer" class="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Portfolio</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        Designed by <a href="https://bootstrapmade.com/"> CT RAMPORA</a>
       </div>
     </div>
-  </div>
-  
-  <div class="column">
-    <div class="card">
-      <img src="assets/Splash.jpg" alt="Reload" style="width:100%">
-      <div class="container">
-        <h2>Splash Polokwane: Splash & Jump Zone </h2>
-        <p class="title">Life Guard</p>
-      <li>Making sure clients don't drown</li>
-      <li>Making certain that the park is clean</li>
-      <p class="title">Start Date:19/01/2022</p>
-      <p class="title">End Date:25/05/2022</p>
-        <p><button class="button">www.splashplk.co.za</button></p>
-      </div>
-    </div>
-  </div>
-</div>
+  </footer>
 
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader">
+    <div class="line"></div>
+  </div>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <script src="assets/js/main.js"></script>
 </body>
-</html>
 
- 
+</html>
