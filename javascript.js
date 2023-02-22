@@ -44,4 +44,4 @@ const projects = [
   projectsList.appendChild(projectsElement);
 });
 
-  //Display all the data from javascrip variables into web page in html?
+ 
